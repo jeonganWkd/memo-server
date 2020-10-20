@@ -1,0 +1,33 @@
+{
+  "name": "memo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeonganWkd/memo-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeonganWkd/memo-server/issues"
+  },
+  "homepage": "https://github.com/jeonganWkd/memo-server#readme"
+}
